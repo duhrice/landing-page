@@ -4,3 +4,5 @@ The goal of this project is to create a web page by following a given example. T
 
 1. Block and inline styling
 2. Website layout using flexboxes
+
+Credits to The Odin Project for providing an example website template and corresponding colors and fonts used.
