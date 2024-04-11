@@ -31,6 +31,43 @@ ul {
     gap: 16px;
 }
 
+.btn {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 30px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    padding: 32px 128px;
+    flex-grow: 0;
+    gap: 128px;
+    border-radius: 5px;
+}
+
+.action-header {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.action-subtext {
+    color: #E5E7EB;
+}
+
+.action-sign-up {
+    border-color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
+
 .footer {
     display: flex;
     justify-content: center;
