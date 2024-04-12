@@ -1,7 +1,9 @@
-body {
+html, body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    height: 100%;
+    justify-content: space-between;
 }
 
 .header, .footer, .one {
@@ -39,12 +41,39 @@ ul {
     padding: 5px 30px;
 }
 
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.box-three {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    margin-left: auto;
+}
+
 .four {
     display: flex;
     justify-content: center;
+    flex-grow: 1;
 }
 
-.box {
+.box-four {
     display: flex;
     background-color: #3882F6;
     justify-content: space-around;
